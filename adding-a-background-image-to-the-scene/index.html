@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Adding a Box • A-Frame</title>
+    <meta name="description" content="Hello, World! • A-Frame">
+    <script src="https://aframe.io/releases/0.2.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-assets>
+      <!-- 背景画像 -->
+      <img id="background-image" src="background-image.jpg">
+    </a-assets>
+    <a-scene>
+      <!-- 空 -->
+      <a-sky src="#background-image"></a-sky>
+
+      <a-camera position="0 1.8 0">
+        <a-cursor color="#2E3A87">
+      </a-camera>
+    </a-scene>
+  </body>
+</html>

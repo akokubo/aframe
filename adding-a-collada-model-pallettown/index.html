@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Pallet Town</title>
+    <meta name="description" content="Hello, World! • A-Frame">
+    <script src="https://aframe.io/releases/0.2.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-assets>
+        <a-asset-item id="pallettown" src="pallettown.dae">
+      </a-assets>
+      <a-collada-model src="#pallettown"></a-collada-model>
+
+      <a-plane position="0 -1 0" rotation="-90 0 0" width="10" height="10" color="#7BE8A4"></a-plane>
+      <a-sky color="#DDEEFF"></a-sky>
+    </a-scene>
+  </body>
+</html>
